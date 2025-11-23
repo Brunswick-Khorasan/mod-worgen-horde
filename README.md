@@ -4,7 +4,7 @@
 
 This is a module for [AzerothCore](http://www.azerothcore.org) that adds worgen and some features related to their playability.
 
-Fork of a fork for personal use, still buggy and a bit unblizzlike. Don't use the vestigal goblins in the mod, they do not function well. Worgen in this version are on the horde
+Fork of a fork for personal use, still buggy and a bit unblizzlike. Don't use the vestigal goblins in the mod, they do not function well. Worgen in this version are on the horde; currently dealing with an issue in which the Sunreavers stop at neutral with them. Not sure why that is the case, have been investigating in Faction.dbc with no luck
 
 ## Important Notes
 
