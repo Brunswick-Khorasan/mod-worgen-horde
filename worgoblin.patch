@@ -27,7 +27,7 @@ index 6c503243cea85f..77136f8b1a0bef 100644
  
          // Race specific languages
 -        if (factionChangeInfo->Race != RACE_ORC && factionChangeInfo->Race != RACE_HUMAN)
-+        if (factionChangeInfo->Race != RACE_ORC && factionChangeInfo->Race != RACE_HUMAN && factionChangeInfo->Race != RACE_WORGEN && factionChangeInfo->Race != RACE_GOBLIN)
++        if (factionChangeInfo->Race != RACE_ORC && factionChangeInfo->Race != RACE_HUMAN)
          {
              stmt = CharacterDatabase.GetPreparedStatement(CHAR_INS_CHAR_SKILL_LANGUAGE);
              stmt->SetData(0, lowGuid);
@@ -66,7 +66,7 @@ index 1b0568fe6cab1f..37456685d851f8 100644
  #define RACEMASK_ALLIANCE \
      ((1<<(RACE_HUMAN-1)) | (1<<(RACE_DWARF-1)) | (1<<(RACE_NIGHTELF-1)) | \
 -    (1<<(RACE_GNOME-1)) | (1<<(RACE_DRAENEI-1)))
-+    (1<<(RACE_GNOME-1)) | (1<<(RACE_DRAENEI-1)) | (1<<(RACE_WORGEN-1)))
++    (1<<(RACE_GNOME-1)) | (1<<(RACE_DRAENEI-1)))
  
  #define RACEMASK_HORDE RACEMASK_ALL_PLAYABLE & ~RACEMASK_ALLIANCE
  
