@@ -2,11 +2,13 @@
 
 [![core-build](https://github.com/benjymansy123/mod-worgoblin/actions/workflows/core-build.yml/badge.svg)](https://github.com/benjymansy123/mod-worgoblin/actions/workflows/core-build.yml)
 
-This is a module for [AzerothCore](http://www.azerothcore.org) that adds worgen, goblins, and numerous features related to their playability.
+This is a module for [AzerothCore](http://www.azerothcore.org) that adds worgen and some features related to their playability.
+
+Fork of a fork for personal use, still buggy and a bit unblizzlike. Don't use the vestigal goblins in the mod, they do not function well. Worgen in this version are on the horde
 
 ## Important Notes
 
-This module makes *heavy* use of client patching and modification. Because of this, it is recommended to use a [clean, unmodified enUS WoW client](https://www.chromiecraft.com/downloads) as issues have been reported due to use of other clients, such as the one offered from Warmane. The HD patch included on the ChromieCraft website has been known to cause issues with this patch. It is for that reason that it's recommended for you to use the HD patch adapted to this module in particular, which can be found [here](https://github.com/benjymansy123/mod-worgoblin/releases/tag/hd-patch) with instructions on how to install it.
+This module makes *heavy* use of client patching and modification. Because of this, it is recommended to use a [clean, unmodified enUS WoW client](https://www.chromiecraft.com/downloads) as issues have been reported due to use of other clients, such as the one offered from Warmane. The HD patch included on the ChromieCraft website has been known to cause issues with this patch.
 
 ## How to Install
 
@@ -47,3 +49,5 @@ And with that, you are all done!
 * [Tanados](https://github.com/helldragonpz) for adapting the HD patch to work with the module.
 * Trimitor#3873 for creating the HD patch.
 * Various users on various Discords for helping me out on a slew of issues with almost everything. (ragestriker#8037 and Mr.MA#0957 in particular)
+* [heyitsbench](https://github.com/heyitsbench) for making the mod
+* [Araxia](https://github.com/araxiaonline) for making a newer version of the mod that could be modified into its current form
