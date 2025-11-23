@@ -27,7 +27,7 @@ index 6c503243cea85f..77136f8b1a0bef 100644
  
          // Race specific languages
 -        if (factionChangeInfo->Race != RACE_ORC && factionChangeInfo->Race != RACE_HUMAN)
-+        if (factionChangeInfo->Race != RACE_ORC && factionChangeInfo->Race != RACE_HUMAN)
++        if (factionChangeInfo->Race != RACE_ORC && factionChangeInfo->Race != RACE_HUMAN && factionChangeInfo->Race != RACE_WORGEN && factionChangeInfo->Race != RACE_GOBLIN)
          {
              stmt = CharacterDatabase.GetPreparedStatement(CHAR_INS_CHAR_SKILL_LANGUAGE);
              stmt->SetData(0, lowGuid);

@@ -51,3 +51,4 @@ And with that, you are all done!
 * Various users on various Discords for helping me out on a slew of issues with almost everything. (ragestriker#8037 and Mr.MA#0957 in particular)
 * [heyitsbench](https://github.com/heyitsbench) for making the mod
 * [Araxia](https://github.com/araxiaonline) for making a newer version of the mod that could be modified into its current form
+
